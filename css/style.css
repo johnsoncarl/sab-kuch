@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
 * { 
-		margin: 0;
+		margin: 0px;
 		padding: 0px;
 	} 
 
@@ -140,7 +140,7 @@ a:focus {
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
 	border: 1px solid #ffffff;
-	color: #ffffff;
+	color: #00b3fe;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	padding-top: 1.025rem;
@@ -255,7 +255,114 @@ a:focus {
 	background-color:#00b3fe;
 	padding:10px;
 	margin:10px;
+	float:left;
 	color:white; 
-	margin-left: 100px;
+	
 }
-.
+#blue {
+	background: #00b3fe;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#blue h3 {
+	color: white;
+	margin-left: 15px;
+}
+
+.ctitle {
+	color: #00b3fe;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+csmall {
+	font-size: 12px;
+	color: #b3b3b3;
+}
+csmall2 {
+	font-size: 12px;
+	color: #f39c12
+}
+
+.spacing {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.badge-theme {
+	background: #00b3fe;
+}
+
+/* Contact Page */
+#contactwrap {
+	background: url(../img/contact.jpg) no-repeat center top;
+	margin-top: -60px;
+	padding-top:0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Blog Page */
+.popular-posts { 
+	margin: 0px;
+	padding-left: 0px;
+	}
+	
+.popular-posts li {
+	list-style: none; 
+	margin-bottom: 20px; 
+	min-height: 70px;
+}
+.popular-posts li a, 
+.popular-posts li a:hover {
+	color:#2f2f2f; 
+	text-decoration: none;
+	}
+	
+.popular-posts li img {
+	float: left; 
+	margin-right: 20px;
+	}
+	
+.popular-posts li em {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #b3b3b3
+	}
+
+.popular-posts p {
+	line-height: normal;
+	margin-bottom: auto;
+}	
+
+.share i {
+	padding-right: 15px;
+	font-size: 18px;
+}
+
+
+
+
+
+
+.form{
+	margin:auto;
+	padding:5px;
+	border:1px solid #00b3fe ;
+}
